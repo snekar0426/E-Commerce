@@ -1,0 +1,98 @@
+.pay1_qes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay2_qes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay3_qes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay4_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay5_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay6_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay7_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay8_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay9_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay10_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay11_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay12_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay13_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay1_par_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pay2_par_qes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 7px;
+}
+.pay9_ans{
+    overflow-x: auto;
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    height: 50px;
+  }
+.exam_multi{
+    font-weight: bold;
+}
+.payments_main {
+    padding: 30px;
+    text-align: justify;
+}
+
+
+@media (max-width: 800px) {
+    table {
+        width: 100%; /* Make sure the table takes up the full width of its container */
+        border-collapse: collapse; /* Collapse borders to avoid spacing issues */
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 7px;
+        text-align: left; /* Adjust text alignment as needed */
+    }
+    th {
+        height: 60px;
+    }
+}

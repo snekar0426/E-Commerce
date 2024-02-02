@@ -1,0 +1,74 @@
+.company_footer{
+    text-align: justify;
+    font-size: 18px;
+    
+.company_shopper_logo {
+    display: flex;
+    padding: 10px;
+
+    span{
+        padding: 4%;
+    }
+    img.shopper {
+        width: 175px;
+        height: 300px;
+    }
+}
+
+.company_purchase_logo {
+    display: flex;
+    padding: 10px;
+
+    span{
+        padding: 2%;
+    }
+    img.bag {
+        width: 175px;
+        height: 280px;
+    }
+}
+
+.company_gift_logo {
+    display: flex;
+    padding: 10px;
+    
+    span{
+        padding: 2%;
+    }
+    img.gift {
+        width: 175px;
+        height: 300px;
+    }
+}
+}
+
+@media (max-width: 800px) {
+
+    img.bag {
+        display: none;
+    }
+    .company_footer {
+        text-align: justify;
+        font-size: 15px;
+        padding: 15px;
+
+        .company_shopper_logo,
+        .company_purchase_logo,
+        .company_gift_logo {
+            display: block;
+            padding: 10px;
+
+            span {
+                padding: 2%;
+            }
+
+            img.shopper,
+            img.gift {
+                width: 85%;
+                height: 300px;
+                padding: 15px;
+            }
+        }
+    }
+}
+

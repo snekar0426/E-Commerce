@@ -1,0 +1,173 @@
+.write_to_form {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    row-gap: 10px;
+    padding: 10px;
+}
+  .write_to_form .write_form{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+  }
+  .write_form{
+    margin-bottom: 16px;
+    position: relative;
+  }
+  input {
+    border: 1px solid rgba(0,0,0,.37);
+    border-radius: 4px;
+    padding: 6px 4px 4px 14px;
+    height: 40px;
+    outline: none !important;
+    font-size: 16px;
+  }
+  
+  label {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.15s ease-in-out;
+}
+
+  input:hover, input:focus { border: 1px solid #000; }
+  
+  input:valid + label, input:focus + label { 
+    top: -6px;
+    color: #000;
+    font-weight: bold;
+  }
+  .gl-form-asterisk {
+      background-color: inherit;
+      color: #e32b2b;
+      padding: 0;
+      padding-left: 3px;
+     
+  }
+  .gl-form-asterisk:after {
+      content: "*";
+  }
+
+.write_form {
+    display: inline-grid;
+    row-gap: 15px;
+
+.write_description {
+    width: auto;
+    height: 100px;
+}
+}
+.write_to_us {
+  padding: 40px;
+  margin-right: 5%;
+}
+
+.contact_write_main {
+    display: flex;
+    justify-content: space-between;
+}
+#write_desc {
+  padding: 25px;
+  text-align: justify;
+  line-height: 30px;
+}
+.social {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#write_to_us {
+  text-align: center;
+  font-size: larger;
+}
+
+.contact_main {
+  padding: 40px;
+}
+.contact_des {
+  padding: 25px;
+  text-align: justify;
+  line-height: 30px;
+}
+#contact_main {
+  text-align: center;
+  font-size: larger;  
+}
+.whatsapp_icon{
+  font-size: 40px;
+}
+.email_icon{
+  font-size: 40px;
+}
+.whatsapp_number {
+  margin-bottom: 1rem;
+}
+.whatsapp_us {
+  margin-bottom: 1rem;
+}
+.email_us {
+  margin-bottom: 1rem;
+}
+.email_contact {
+  margin-bottom: 1rem;
+}
+button {
+  width: 35%;
+  height: 125%;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .contact_main {
+    padding: 1px;
+}
+#contact_main {
+  margin-top: 5%;
+  text-align: center;
+  font-size: larger;
+}
+  .contact_des {
+    padding: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+.contact_write_main {
+  display: block;
+}
+.social {
+  margin-top: 3%;
+  display: block;
+  text-align: center;
+}
+.social_contact {
+  margin-bottom: 2rem;
+}
+.write_to_us {
+  padding: 20px;
+}
+#write_desc {
+  padding: 5px;
+  text-align: justify;
+  line-height: 30px;
+}
+#write_to_us {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: larger;
+}
+.write_to_form {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+}
