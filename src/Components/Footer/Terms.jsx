@@ -448,7 +448,7 @@ const Terms = () => {
               <li>Damaged or seal broken on Product;</li>
               <li>Part/accessory missing;</li>
               <li>Item not compatible;</li>
-              <li>Seller description/specification wrong;;</li>
+              <li>Seller description/specification wrong;</li>
               <li>Defective (functional issues)</li>
               <li>Product not working and manufacturer claims invalid Invoice.</li>
             </ul><br/>
