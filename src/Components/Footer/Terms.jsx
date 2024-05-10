@@ -312,17 +312,13 @@ const Terms = () => {
         <div className='grievance_par'>In accordance with Information Technology Act 2000 and rules made there under and the Consumer Protection (E-Commerce) Rules, 2020, the name and contact details of the Grievance Officer are provided below:<br/><br/>
               Miss. Sneka R<br/><br/>
 
-              Designation: Senior Manager<br/><br/>
+              Designation: Software Engineer<br/><br/>
 
-              Shopper Internet Pvt Ltd Block B (Begonia),<br/><br/>
+              Shopper Internet Pvt Ltd Block B<br/><br/>
 
-              8th Floor Embassy Tech Village,<br/><br/>
+              Perungudi, Kanchipuram<br/><br/>
 
-              Outer Ring Road, Devarabeesanahalli Village,<br/><br/>
-
-              Varthur Hobli, Bengaluru East Taluk,<br/><br/>
-
-              Bengaluru District-560103, Karnataka :, India.<br/><br/>
+              Chennai District-600013, TamilNadu, India.<br/><br/>
 
               Contact us:<br/><br/>
 
